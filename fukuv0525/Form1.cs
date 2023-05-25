@@ -36,5 +36,10 @@ namespace fukuv0525
         {
             label1.Top = label1.Top + 15;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Nguyen Quoc Bao");
+        }
     }
 }
